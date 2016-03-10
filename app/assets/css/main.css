@@ -12,7 +12,8 @@ body {
     border-radius: 10px; }
     body .quote .quote-text {
       text-align: center;
-      margin: 10px; }
+      margin: 10px;
+      padding: 20px; }
       body .quote .quote-text i {
         vertical-align: top;
         font-size: x-large; }
