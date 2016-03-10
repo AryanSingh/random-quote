@@ -1,0 +1,32 @@
+body{
+  background-color: #E74C3C;
+  height: 400px;
+  // position:relative;
+  .quote{
+    position:relative;
+    top: 50%;
+    // transform: translateY(-50%);
+    margin: auto;
+    width: 40%;
+    // height:200px;
+    background-color: white;
+    border-radius: 10px;
+    .quote-text{
+      text-align: center;
+    }
+    #new-quote{
+      float: right;
+      margin-right: 20px;
+      top: 50%;
+      transform: translateY(15%);
+    }
+    .row{
+      margin: 0;
+      .btn{
+        margin: 10px 0 10px 10px;
+      }
+    }
+  }
+
+
+}
