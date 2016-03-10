@@ -1,8 +1,10 @@
 body{
+  transition: background-color 0.5s ease;
   background-color: #E74C3C;
   height: 400px;
   // position:relative;
   .quote{
+    transition: background-color 0.5s ease;
     position:relative;
     top: 50%;
     // transform: translateY(-50%);
@@ -13,6 +15,25 @@ body{
     border-radius: 10px;
     .quote-text{
       text-align: center;
+      margin: 10px;
+      i{
+        vertical-align: top;
+        font-size: x-large;
+      }
+      #text{
+        font-family: 'Bitter', serif;
+        font-size: x-large;
+        font-weight: 700;
+      }
+    }
+    .quote-author{
+      text-align: right;
+      #author{
+        margin-right: 10px;
+        font-family: 'Bitter', serif;
+        font-size: 1.3em;
+        font-weight: 200;  
+      }
     }
     #new-quote{
       float: right;
